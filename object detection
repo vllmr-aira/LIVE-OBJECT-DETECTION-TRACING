@@ -1,0 +1,28 @@
+🎥 Live Object Detection, Counting & Alerts
+
+A real-time object detection and tracking web app built with Streamlit, YOLOv8, and WebRTC.
+This application detects objects from a live webcam feed, counts detected objects, and automatically saves alert images whenever a target object is found.
+
+🚀 Features
+📷 Real-time webcam object detection
+🧠 Powered by YOLOv8 (yolov8n.pt)
+🔍 Object tracking with persistent IDs
+📊 Live object counting overlay
+🚨 Automatic alert system for specific objects
+💾 Saves detection snapshots locally
+⚡ Fast and lightweight Streamlit interface
+
+🛠️ Technologies Used
+Python
+Streamlit
+Streamlit WebRTC
+Ultralytics YOLOv8
+OpenCV
+AV (PyAV)
+📂 Project Structure
+project/
+│
+├── app.py                # Main Streamlit application
+├── detections/           # Saved alert images
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
